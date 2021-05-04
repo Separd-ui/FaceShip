@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/avatar_1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/avatar1" />
+
+    <ImageView
+        android:id="@+id/avatar_2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintEnd_toStartOf="@+id/avatar_3"
+        app:layout_constraintStart_toEndOf="@+id/avatar_1"
+        app:layout_constraintTop_toTopOf="@+id/avatar_1"
+        app:srcCompat="@drawable/avatar2" />
+
+    <ImageView
+        android:id="@+id/avatar_3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/avatar_2"
+        app:srcCompat="@drawable/avatar3" />
+
+    <ImageView
+        android:id="@+id/tick_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_blue"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/avatar_1"
+        app:layout_constraintTop_toTopOf="@+id/avatar_1"
+        app:srcCompat="@drawable/ic_tick_b" />
+
+    <ImageView
+        android:id="@+id/tick_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_blue"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/avatar_2"
+        app:layout_constraintTop_toTopOf="@+id/avatar_2"
+        app:srcCompat="@drawable/ic_tick_b" />
+
+    <ImageView
+        android:id="@+id/tick_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_blue"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/avatar_3"
+        app:layout_constraintTop_toTopOf="@+id/avatar_3"
+        app:srcCompat="@drawable/ic_tick_b" />
+
+    <Button
+        android:id="@+id/b_save_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/save"
+        app:layout_constraintEnd_toEndOf="@+id/avatar_3"
+        app:layout_constraintStart_toStartOf="@+id/avatar_1"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Доступные аватары"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

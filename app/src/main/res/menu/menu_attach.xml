@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/a_camera"
+        android:icon="@drawable/ic_camera"
+        android:title="Использовать камеру"/>
+    <item
+        android:title="Использовать фото с галереи"
+        android:icon="@drawable/ic_photo"
+        android:id="@+id/a_photo"/>
+
+</menu>

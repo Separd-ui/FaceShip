@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FaceShip</string>
+    <string name="tape">Лента</string>
+    <string name="users">Пользователи</string>
+    <string name="account">Профиль</string>
+    <string name="chat">Чаты</string>
+    <string name="tape_t">Посмотрите, чем люди делятся между собой</string>
+    <string name="account_t">Отредактируйте свой профиль</string>
+    <string name="chat_t">Общайтесь с друзьями</string>
+    <string name="user_t">Найдите друзей</string>
+    <string name="fullname">Введите своё полное имя</string>
+    <string name="bio">Введите информацию о себе(необязательно)</string>
+    <string name="author">О нас</string>
+    <string name="author_t">Информация о приложении(разработчике)</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="sign_out">Выйти с аккаунта</string>
+    <string name="username">Введите свой никнейм</string>
+    <string name="mail">Введите свою почту</string>
+    <string name="pas">Введите свой пароль</string>
+    <string name="sign_in_t">Уже есть аккаунт?</string>
+    <string name="restore">Восстановление пароля</string>
+    <string name="restore_b">Отправить код</string>
+    <string name="transition_act">transition</string>
+    <string name="save">Сохранить</string>
+    <string name="post">Опубликовать</string>
+    <string name="desc">Введите текст</string>
+    <string name="decs_t">Описание:</string>
+    <string name="not">Уведомления</string>
+    <string name="send_m">Введите текст сообщения</string>
+    <string name="not_t">Получайте уведомления</string>
+    <string name="com">Введите текст комментария</string>
+    <string name="search">Введите имя пользователя</string>
+    <string name="ver">1.2.0</string>
+    <string name="author_d">Separd(А.Шепеленко)</string>
+    <string name="update">03.05.2021</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

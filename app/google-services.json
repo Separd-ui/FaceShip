@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "412674319865",
+    "firebase_url": "https://faceship-83104-default-rtdb.firebaseio.com",
+    "project_id": "faceship-83104",
+    "storage_bucket": "faceship-83104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412674319865:android:5c3ae03be9767ad3e98928",
+        "android_client_info": {
+          "package_name": "com.example.faceship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412674319865-n7l886e9v4334jeurjsbga6o59nk8b82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4SRP0Gc7HWrWEp8Hlm8IUpesLpBaWeZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412674319865-n7l886e9v4334jeurjsbga6o59nk8b82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/make_photo"
+        android:icon="@drawable/ic_camera"
+        android:title="Использовать камеру"/>
+    <item
+        android:title="Взять фото с галереи"
+        android:icon="@drawable/ic_photo"
+        android:id="@+id/take_photo"/>
+    <item
+        android:title="Взять видео с галереи"
+        android:id="@+id/video"
+        android:icon="@drawable/ic_video"/>
+    <item
+        android:id="@+id/video_make"
+        android:icon="@drawable/ic_video_make"
+        android:title="Снять видео"/>
+
+</menu>

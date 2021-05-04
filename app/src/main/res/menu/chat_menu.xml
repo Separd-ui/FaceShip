@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/chat_edit"
+        android:icon="@drawable/ic_edit_b"
+        android:title="Редактировать сообщение"/>
+    <item
+        android:title="Удалить сообщение"
+        android:icon="@drawable/ic_delete"
+        android:id="@+id/chat_delete"/>
+
+</menu>
